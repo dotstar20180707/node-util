@@ -1,8 +1,14 @@
 {
-  "name": "dotstar-node-util",
+  "name": "@dotstar/util",
   "version": "1.0.0",
   "description": "nodejs utilities",
-  "main": "index.js",
+  "keywords": [],
+  "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public",
+    "tag": "beta",
+    "registory": "https://npm.pkg.github.com/dotstar"
+  },
   "engines": {
     "node": ">=8.0.0"
   },
@@ -21,8 +27,8 @@
   },
   "homepage": "https://github.com/dotstar20180707/node-util#readme",
   "devDependencies": {
-    "assert": "^1.4.1",
-    "eslint": "^5.6.1",
+    "assert": "^1.5.0",
+    "eslint": "^5.16.0",
     "eslint-plugin-node": "^7.0.1",
     "mocha": "^5.2.0"
   }
