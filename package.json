@@ -1,12 +1,12 @@
 {
   "name": "@dotstar/util",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "nodejs utilities",
   "keywords": [],
   "main": "lib/index.js",
   "publishConfig": {
     "access": "public",
-    "tag": "beta",
+    "tag": "latest",
     "registory": "https://npm.pkg.github.com/dotstar"
   },
   "engines": {
